@@ -18,7 +18,7 @@ import java.util.List;
  * 必中奖策略抽奖，排掉已经中奖的概率，重新计算中奖范围
  **/
 @Component("defaultRateRandomDrawAlgorithm")
-public class DefaultRateRandomDrawAlgorithm extends BaseAlgorithm {
+public class EntiretyRateRandomDrawAlgorithm extends BaseAlgorithm {
 
 
     //传入排除的奖品动态数组
