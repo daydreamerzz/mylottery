@@ -18,6 +18,7 @@ import java.util.concurrent.ConcurrentHashMap;
  *      这里存放抽奖策略
  */
 public class DrawConfig {
+
     @Resource
     private IDrawAlgorithm entiretyRateRandomDrawAlgorithm;
 
